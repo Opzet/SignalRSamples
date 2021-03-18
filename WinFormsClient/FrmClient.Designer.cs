@@ -29,23 +29,25 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.grpMessaging = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.btnDisconnect = new System.Windows.Forms.Button();
             this.txtUrl = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnConnect = new System.Windows.Forms.Button();
-            this.txtLog = new System.Windows.Forms.TextBox();
+            this.grpMessaging = new System.Windows.Forms.GroupBox();
+            this.btnSend = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.txtMessage = new System.Windows.Forms.TextBox();
-            this.btnSend = new System.Windows.Forms.Button();
-            this.txtUserName = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txtLog = new System.Windows.Forms.TextBox();
             this.grpMembership = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.btnLeaveGroup = new System.Windows.Forms.Button();
             this.btnJoinGroup = new System.Windows.Forms.Button();
             this.txtGroupName = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.grpMessaging.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -67,28 +69,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Connection";
             // 
-            // grpMessaging
+            // txtUserName
             // 
-            this.grpMessaging.Controls.Add(this.btnSend);
-            this.grpMessaging.Controls.Add(this.label2);
-            this.grpMessaging.Controls.Add(this.txtMessage);
-            this.grpMessaging.Enabled = false;
-            this.grpMessaging.Location = new System.Drawing.Point(12, 125);
-            this.grpMessaging.Name = "grpMessaging";
-            this.grpMessaging.Size = new System.Drawing.Size(403, 79);
-            this.grpMessaging.TabIndex = 1;
-            this.grpMessaging.TabStop = false;
-            this.grpMessaging.Text = "Messaging";
+            this.txtUserName.Location = new System.Drawing.Point(79, 45);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(242, 20);
+            this.txtUserName.TabIndex = 9;
+            this.txtUserName.Text = "user";
             // 
-            // groupBox3
+            // label3
             // 
-            this.groupBox3.Controls.Add(this.txtLog);
-            this.groupBox3.Location = new System.Drawing.Point(12, 299);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(403, 210);
-            this.groupBox3.TabIndex = 2;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Log";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(8, 50);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(58, 13);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "User name";
             // 
             // btnDisconnect
             // 
@@ -128,15 +124,28 @@
             this.btnConnect.UseVisualStyleBackColor = true;
             this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
-            // txtLog
+            // grpMessaging
             // 
-            this.txtLog.Location = new System.Drawing.Point(6, 19);
-            this.txtLog.Multiline = true;
-            this.txtLog.Name = "txtLog";
-            this.txtLog.ReadOnly = true;
-            this.txtLog.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtLog.Size = new System.Drawing.Size(391, 185);
-            this.txtLog.TabIndex = 5;
+            this.grpMessaging.Controls.Add(this.btnSend);
+            this.grpMessaging.Controls.Add(this.label2);
+            this.grpMessaging.Controls.Add(this.txtMessage);
+            this.grpMessaging.Enabled = false;
+            this.grpMessaging.Location = new System.Drawing.Point(12, 125);
+            this.grpMessaging.Name = "grpMessaging";
+            this.grpMessaging.Size = new System.Drawing.Size(403, 79);
+            this.grpMessaging.TabIndex = 1;
+            this.grpMessaging.TabStop = false;
+            this.grpMessaging.Text = "Messaging";
+            // 
+            // btnSend
+            // 
+            this.btnSend.Location = new System.Drawing.Point(76, 45);
+            this.btnSend.Name = "btnSend";
+            this.btnSend.Size = new System.Drawing.Size(239, 23);
+            this.btnSend.TabIndex = 9;
+            this.btnSend.Text = "Send";
+            this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // label2
             // 
@@ -154,32 +163,25 @@
             this.txtMessage.Size = new System.Drawing.Size(238, 20);
             this.txtMessage.TabIndex = 7;
             // 
-            // btnSend
+            // groupBox3
             // 
-            this.btnSend.Location = new System.Drawing.Point(76, 45);
-            this.btnSend.Name = "btnSend";
-            this.btnSend.Size = new System.Drawing.Size(239, 23);
-            this.btnSend.TabIndex = 9;
-            this.btnSend.Text = "Send";
-            this.btnSend.UseVisualStyleBackColor = true;
-            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
+            this.groupBox3.Controls.Add(this.txtLog);
+            this.groupBox3.Location = new System.Drawing.Point(12, 299);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(403, 210);
+            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Log";
             // 
-            // txtUserName
+            // txtLog
             // 
-            this.txtUserName.Location = new System.Drawing.Point(79, 45);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(242, 20);
-            this.txtUserName.TabIndex = 9;
-            this.txtUserName.Text = "user";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 50);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 13);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "User name";
+            this.txtLog.Location = new System.Drawing.Point(6, 19);
+            this.txtLog.Multiline = true;
+            this.txtLog.Name = "txtLog";
+            this.txtLog.ReadOnly = true;
+            this.txtLog.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txtLog.Size = new System.Drawing.Size(391, 185);
+            this.txtLog.TabIndex = 5;
             // 
             // grpMembership
             // 
@@ -194,6 +196,15 @@
             this.grpMembership.TabIndex = 3;
             this.grpMembership.TabStop = false;
             this.grpMembership.Text = "Group Membership";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(9, 32);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(65, 13);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "Group name";
             // 
             // btnLeaveGroup
             // 
@@ -222,20 +233,31 @@
             this.txtGroupName.Size = new System.Drawing.Size(238, 20);
             this.txtGroupName.TabIndex = 8;
             // 
-            // label4
+            // panel1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 32);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 13);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Group name";
+            this.panel1.Location = new System.Drawing.Point(440, 19);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(431, 484);
+            this.panel1.TabIndex = 4;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(431, 468);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(110, 41);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Reset";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FrmClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(427, 519);
+            this.ClientSize = new System.Drawing.Size(900, 519);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.grpMembership);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.grpMessaging);
@@ -274,6 +296,8 @@
         private System.Windows.Forms.Button btnLeaveGroup;
         private System.Windows.Forms.Button btnJoinGroup;
         private System.Windows.Forms.TextBox txtGroupName;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SgClient1.Properties {
+namespace Claucometa.TicTacToe.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNet.SignalR.Client;
+﻿using Claucometa.TicTacToe;
+using Microsoft.AspNet.SignalR.Client;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +14,8 @@ namespace WinFormsClient
 {
     public partial class FrmClient : Form
     {
+        GameArea gameArea = new GameArea();
+
         //Connection to a SignalR server
         HubConnection _signalRConnection;
 
@@ -22,6 +25,17 @@ namespace WinFormsClient
         public FrmClient()
         {
             InitializeComponent();
+            panel1.Controls.Add(gameArea);
+            StartLocation = gameArea.Location;
+        }
+
+        public Point StartLocation;
+
+        private void Reset()
+        {
+            panel1.Controls.Remove(gameArea);
+            gameArea = new GameArea(StartLocation);
+            panel1.Controls.Add(gameArea);
         }
 
         private async void btnConnect_Click(object sender, EventArgs e)
@@ -116,6 +130,12 @@ namespace WinFormsClient
                 this.BeginInvoke(new Action(() => txtLog.AppendText(log + Environment.NewLine)));
             else
                 txtLog.AppendText(log + Environment.NewLine);
-        }        
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            GameContext.Game = new GameScene();
+            Reset();
+        }
     }
 }
