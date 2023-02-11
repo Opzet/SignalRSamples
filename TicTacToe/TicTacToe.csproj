@@ -135,9 +135,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\claucometa.tictactoe.engine\claucometa.tictactoe.engine.csproj">
+    <ProjectReference Include="..\claucometa.tictactoe.engine\Tictactoe.engine.csproj">
       <Project>{5bb56ae0-7ed8-449a-b699-b59323cb0936}</Project>
-      <Name>claucometa.tictactoe.engine</Name>
+      <Name>Tictactoe.engine</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

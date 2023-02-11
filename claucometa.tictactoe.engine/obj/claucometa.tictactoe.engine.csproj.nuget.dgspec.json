@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\source\\repos\\SignalRSamples\\claucometa.tictactoe.engine\\claucometa.tictactoe.engine.csproj": {}
+    "D:\\source\\repos\\SignalRHub\\claucometa.tictactoe.engine\\claucometa.tictactoe.engine.csproj": {}
   },
   "projects": {
-    "D:\\source\\repos\\SignalRSamples\\claucometa.tictactoe.engine\\claucometa.tictactoe.engine.csproj": {
+    "D:\\source\\repos\\SignalRHub\\claucometa.tictactoe.engine\\claucometa.tictactoe.engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\source\\repos\\SignalRSamples\\claucometa.tictactoe.engine\\claucometa.tictactoe.engine.csproj",
+        "projectUniqueName": "D:\\source\\repos\\SignalRHub\\claucometa.tictactoe.engine\\claucometa.tictactoe.engine.csproj",
         "projectName": "claucometa.tictactoe.engine",
-        "projectPath": "D:\\source\\repos\\SignalRSamples\\claucometa.tictactoe.engine\\claucometa.tictactoe.engine.csproj",
+        "projectPath": "D:\\source\\repos\\SignalRHub\\claucometa.tictactoe.engine\\claucometa.tictactoe.engine.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\source\\repos\\SignalRSamples\\claucometa.tictactoe.engine\\obj\\",
+        "outputPath": "D:\\source\\repos\\SignalRHub\\claucometa.tictactoe.engine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

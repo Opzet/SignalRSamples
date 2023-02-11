@@ -1058,11 +1058,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\source\\repos\\SignalRSamples\\SignalrServer\\SignalrServer.csproj",
+      "projectUniqueName": "D:\\source\\repos\\SignalRHub\\SignalrServer\\SignalrServer.csproj",
       "projectName": "SignalrServer",
-      "projectPath": "D:\\source\\repos\\SignalRSamples\\SignalrServer\\SignalrServer.csproj",
+      "projectPath": "D:\\source\\repos\\SignalRHub\\SignalrServer\\SignalrServer.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "D:\\source\\repos\\SignalRSamples\\SignalrServer\\obj\\",
+      "outputPath": "D:\\source\\repos\\SignalRHub\\SignalrServer\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
