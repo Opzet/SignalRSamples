@@ -1,0 +1,1132 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "Microsoft.AspNet.Cors/5.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.Core/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin.Security": "2.1.0",
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Security"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.SignalR.SelfHost/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.SignalR.Core": "2.4.3",
+          "Microsoft.Owin.SelfHost": "2.1.0"
+        }
+      },
+      "Microsoft.Owin/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Cors/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Cors": "5.0.0",
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Cors.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Cors.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Diagnostics/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Hosting/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Security/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Security"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.SelfHost/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Microsoft.Owin.Diagnostics": "4.2.2",
+          "Microsoft.Owin.Host.HttpListener": "4.2.2",
+          "Microsoft.Owin.Hosting": "4.2.2",
+          "Owin": "1.0.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "Wisej-2/2.5.38": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net48/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net48/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net48/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net48/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net48/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net48/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win": {
+      "Microsoft.AspNet.Cors/5.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.Core/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin.Security": "2.1.0",
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Security"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.SignalR.SelfHost/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.SignalR.Core": "2.4.3",
+          "Microsoft.Owin.SelfHost": "2.1.0"
+        }
+      },
+      "Microsoft.Owin/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Cors/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Cors": "5.0.0",
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Cors.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Cors.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Diagnostics/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Hosting/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Security/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Security"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.SelfHost/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Microsoft.Owin.Diagnostics": "4.2.2",
+          "Microsoft.Owin.Host.HttpListener": "4.2.2",
+          "Microsoft.Owin.Hosting": "4.2.2",
+          "Owin": "1.0.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "Wisej-2/2.5.38": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net48/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net48/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net48/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net48/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net48/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net48/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x64": {
+      "Microsoft.AspNet.Cors/5.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.Core/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin.Security": "2.1.0",
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Security"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.SignalR.SelfHost/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.SignalR.Core": "2.4.3",
+          "Microsoft.Owin.SelfHost": "2.1.0"
+        }
+      },
+      "Microsoft.Owin/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Cors/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Cors": "5.0.0",
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Cors.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Cors.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Diagnostics/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Hosting/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Security/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Security"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.SelfHost/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Microsoft.Owin.Diagnostics": "4.2.2",
+          "Microsoft.Owin.Host.HttpListener": "4.2.2",
+          "Microsoft.Owin.Hosting": "4.2.2",
+          "Owin": "1.0.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "Wisej-2/2.5.38": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net48/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net48/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net48/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net48/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net48/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net48/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      }
+    },
+    ".NETFramework,Version=v4.8/win-x86": {
+      "Microsoft.AspNet.Cors/5.2.9": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Cors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Cors.dll": {}
+        }
+      },
+      "Microsoft.AspNet.SignalR.Core/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin.Security": "2.1.0",
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System.Security"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.SignalR.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.SignalR.SelfHost/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.SignalR.Core": "2.4.3",
+          "Microsoft.Owin.SelfHost": "2.1.0"
+        }
+      },
+      "Microsoft.Owin/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Cors/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Cors": "5.0.0",
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Cors.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Cors.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Diagnostics/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Diagnostics.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Host.HttpListener/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Host.HttpListener.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Hosting/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Hosting.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.Security/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Owin": "1.0.0"
+        },
+        "frameworkAssemblies": [
+          "System.Security"
+        ],
+        "compile": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Owin.Security.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Owin.SelfHost/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Owin": "4.2.2",
+          "Microsoft.Owin.Diagnostics": "4.2.2",
+          "Microsoft.Owin.Host.HttpListener": "4.2.2",
+          "Microsoft.Owin.Hosting": "4.2.2",
+          "Owin": "1.0.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Owin/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Owin.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Owin.dll": {}
+        }
+      },
+      "Wisej-2/2.5.38": {
+        "type": "package",
+        "compile": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net48/Wisej.Framework.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net48/de/Wisej.Framework.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net48/es/Wisej.Framework.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net48/fr/Wisej.Framework.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net48/it/Wisej.Framework.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net48/pt/Wisej.Framework.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net48/tr/Wisej.Framework.resources.dll": {
+            "locale": "tr"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNet.Cors/5.2.9": {
+      "sha512": "LUjfvaOu0q9bz523CYmIE06Q9EttrpKuRLm3T83spF6oX+dYiFlLJFLm4RveGKq/puRJC5KTnXdbWGLqM783jA==",
+      "type": "package",
+      "path": "microsoft.aspnet.cors/5.2.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Web.Cors.dll",
+        "microsoft.aspnet.cors.5.2.9.nupkg.sha512",
+        "microsoft.aspnet.cors.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.SignalR.Core/2.4.3": {
+      "sha512": "zxvv9HhsUa3nfyC7rIwFxHVcGffyQrjqNUO6pBKLyv3eFigkEy3N+6KbbSedzIyCfthglTbvU+m4sg8tawRlvA==",
+      "type": "package",
+      "path": "microsoft.aspnet.signalr.core/2.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.AspNet.SignalR.Core.dll",
+        "lib/net45/Microsoft.AspNet.SignalR.Core.pdb",
+        "lib/net45/Microsoft.AspNet.SignalR.Core.xml",
+        "microsoft.aspnet.signalr.core.2.4.3.nupkg.sha512",
+        "microsoft.aspnet.signalr.core.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.AspNet.SignalR.SelfHost/2.4.3": {
+      "sha512": "lt76BC3f0k3MQUXx0QGZzJZsEkg+9Kk64CPrv+cnwunrYE0ne/DxTtE+gSZewtPkEhBFZwoRCbIrWf+9CEIQYQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.signalr.selfhost/2.4.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "microsoft.aspnet.signalr.selfhost.2.4.3.nupkg.sha512",
+        "microsoft.aspnet.signalr.selfhost.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Microsoft.Owin/4.2.2": {
+      "sha512": "jt410l/8dvCIguRdU7dupYdm4kGLepVdD8EOTKU4nYZcLRrn6kQYqI6pbJOTJp7Vlm/T2WUF5bzyKK2z29xtjg==",
+      "type": "package",
+      "path": "microsoft.owin/4.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net45/Microsoft.Owin.dll",
+        "lib/net45/Microsoft.Owin.xml",
+        "microsoft.owin.4.2.2.nupkg.sha512",
+        "microsoft.owin.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Cors/4.2.2": {
+      "sha512": "v5+J/LZ40kA7nmJi42nyOvZ10HrkLzg11tg9Gyxgns45QjmVBBuEhtUscs+JszL4YEglFwQPAK/iwcBIqAbb/w==",
+      "type": "package",
+      "path": "microsoft.owin.cors/4.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net45/Microsoft.Owin.Cors.dll",
+        "lib/net45/Microsoft.Owin.Cors.xml",
+        "microsoft.owin.cors.4.2.2.nupkg.sha512",
+        "microsoft.owin.cors.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Diagnostics/4.2.2": {
+      "sha512": "2Ia8e/9qeMRdp9wSCcdgorooLGYnmlTVMP8n2BWHyzzGSJLdx50qerbvosgZBSpOxhd2PBmOAfY4nNnayvMygg==",
+      "type": "package",
+      "path": "microsoft.owin.diagnostics/4.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net45/Microsoft.Owin.Diagnostics.dll",
+        "lib/net45/Microsoft.Owin.Diagnostics.xml",
+        "microsoft.owin.diagnostics.4.2.2.nupkg.sha512",
+        "microsoft.owin.diagnostics.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Host.HttpListener/4.2.2": {
+      "sha512": "Kl1A0sBzfMD3qvX6XcGU0FopN6POFFRpIEQnKIAbvsShadIG9/UxgDdHVlX/IzFHXwIHfY59Ae4RGDVKYNvIqQ==",
+      "type": "package",
+      "path": "microsoft.owin.host.httplistener/4.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net45/Microsoft.Owin.Host.HttpListener.dll",
+        "lib/net45/Microsoft.Owin.Host.HttpListener.xml",
+        "microsoft.owin.host.httplistener.4.2.2.nupkg.sha512",
+        "microsoft.owin.host.httplistener.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Hosting/4.2.2": {
+      "sha512": "KsupM0TNPUfLn1uHvQy22IX6VWE+wi7C2shseSnhO9JYFxgwWcsSmjxrRpw+xcD+4hA3O280tBxfZ6T+kJuhjg==",
+      "type": "package",
+      "path": "microsoft.owin.hosting/4.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net45/Microsoft.Owin.Hosting.dll",
+        "lib/net45/Microsoft.Owin.Hosting.xml",
+        "microsoft.owin.hosting.4.2.2.nupkg.sha512",
+        "microsoft.owin.hosting.nuspec"
+      ]
+    },
+    "Microsoft.Owin.Security/4.2.2": {
+      "sha512": "nEgJYWfSrbp/u2FnIkmiLUuWUyFX8xC/gtnwN9r1rV+iT/E10rMinGbaxQvSHlkhHBnUgzriYwCaMhMExxpyhQ==",
+      "type": "package",
+      "path": "microsoft.owin.security/4.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net45/Microsoft.Owin.Security.dll",
+        "lib/net45/Microsoft.Owin.Security.xml",
+        "microsoft.owin.security.4.2.2.nupkg.sha512",
+        "microsoft.owin.security.nuspec"
+      ]
+    },
+    "Microsoft.Owin.SelfHost/4.2.2": {
+      "sha512": "v3+uEiIFPlaWwAPqOmF3XgjlyQhCnWKuwFU1v/7praTwkkaLXNJ8W4I3H81FGjKMIOPkrUyxfn3S3k4Tbe7u2Q==",
+      "type": "package",
+      "path": "microsoft.owin.selfhost/4.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "microsoft.owin.selfhost.4.2.2.nupkg.sha512",
+        "microsoft.owin.selfhost.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/13.0.2": {
+      "sha512": "R2pZ3B0UjeyHShm9vG+Tu0EBb2lC8b0dFzV9gVn50ofHXh9Smjk6kTn7A/FdAsC8B5cKib1OnGYOXxRBz5XQDg==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Owin/1.0.0": {
+      "sha512": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "type": "package",
+      "path": "owin/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Owin.dll",
+        "owin.1.0.0.nupkg.sha512",
+        "owin.nuspec"
+      ]
+    },
+    "Wisej-2/2.5.38": {
+      "sha512": "w/StGjsl1QHIfEOEN20hgmEnkAumo9O3OtreB3JPu/PSnxP6naoDWcKZ1NJoTB4gOMlrzmnV+C6TFvodbIbsbQ==",
+      "type": "package",
+      "path": "wisej-2/2.5.38",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EULA-2.0.txt",
+        "images/Wisej.png",
+        "lib/net48/Wisej.Framework.dll",
+        "lib/net48/Wisej.Framework.xml",
+        "lib/net48/de/Wisej.Framework.resources.dll",
+        "lib/net48/es/Wisej.Framework.resources.dll",
+        "lib/net48/fr/Wisej.Framework.resources.dll",
+        "lib/net48/it/Wisej.Framework.resources.dll",
+        "lib/net48/pt/Wisej.Framework.resources.dll",
+        "lib/net48/tr/Wisej.Framework.resources.dll",
+        "wisej-2.2.5.38.nupkg.sha512",
+        "wisej-2.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "Microsoft.AspNet.Cors >= 5.2.9",
+      "Microsoft.AspNet.SignalR.SelfHost >= 2.4.3",
+      "Microsoft.Owin.Cors >= 4.2.2",
+      "Microsoft.Owin.Security >= 4.2.2",
+      "Microsoft.Owin.SelfHost >= 4.2.2",
+      "Newtonsoft.Json >= 13.0.2",
+      "Wisej-2 >= 2.5.38"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\source\\repos\\SignalRSamples\\SignalrServer\\SignalrServer.csproj",
+      "projectName": "SignalrServer",
+      "projectPath": "D:\\source\\repos\\SignalRSamples\\SignalrServer\\SignalrServer.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\source\\repos\\SignalRSamples\\SignalrServer\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Wisej-2.5.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "dependencies": {
+          "Microsoft.AspNet.Cors": {
+            "target": "Package",
+            "version": "[5.2.9, )"
+          },
+          "Microsoft.AspNet.SignalR.SelfHost": {
+            "target": "Package",
+            "version": "[2.4.3, )"
+          },
+          "Microsoft.Owin.Cors": {
+            "target": "Package",
+            "version": "[4.2.2, )"
+          },
+          "Microsoft.Owin.Security": {
+            "target": "Package",
+            "version": "[4.2.2, )"
+          },
+          "Microsoft.Owin.SelfHost": {
+            "target": "Package",
+            "version": "[4.2.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.2, )"
+          },
+          "Wisej-2": {
+            "target": "Package",
+            "version": "[2.5.38, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

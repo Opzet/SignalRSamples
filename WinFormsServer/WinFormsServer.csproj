@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5F754EF2-5AFD-4E4C-B554-A804568DEED2}</ProjectGuid>
+    <ProjectGuid>{5841F167-D43E-49A7-B790-C50868FDEC44}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>SgTest3</RootNamespace>
     <AssemblyName>SgTest3</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>

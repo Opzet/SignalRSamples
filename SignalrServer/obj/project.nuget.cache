@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "mqLYCs9SUuDNhp4WPNG4Gu+xg3jetuZ0PSoHH1qMFlpKD7lNqpxKHybNT6JltONGNKFIAN9SRyELEVReq2zmpg==",
+  "success": true,
+  "projectFilePath": "D:\\source\\repos\\SignalRSamples\\SignalrServer\\SignalrServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.9\\microsoft.aspnet.cors.5.2.9.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnet.signalr.core\\2.4.3\\microsoft.aspnet.signalr.core.2.4.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnet.signalr.selfhost\\2.4.3\\microsoft.aspnet.signalr.selfhost.2.4.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.owin\\4.2.2\\microsoft.owin.4.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.owin.cors\\4.2.2\\microsoft.owin.cors.4.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.owin.diagnostics\\4.2.2\\microsoft.owin.diagnostics.4.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.owin.host.httplistener\\4.2.2\\microsoft.owin.host.httplistener.4.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.owin.hosting\\4.2.2\\microsoft.owin.hosting.4.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.owin.security\\4.2.2\\microsoft.owin.security.4.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.owin.selfhost\\4.2.2\\microsoft.owin.selfhost.4.2.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\owin\\1.0.0\\owin.1.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\wisej-2\\2.5.38\\wisej-2.2.5.38.nupkg.sha512"
+  ],
+  "logs": []
+}
